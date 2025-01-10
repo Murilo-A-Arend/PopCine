@@ -6,32 +6,13 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css"> 
-    <script>
-      function verificar(){
-        // supondo que você tenha essas variáveis definidas em algum lugar
-          let nome = document.getElementById("nome").value;
-          let email = document.getElementById("email").value;
-          let assunto = document.getElementById("assunto").value;
-          let comentario = document.getElementById("comentario").value;
-          
-          if (nome.length < 5 && nome.trim() === "") {
-            alert("O campo deve ter pelo menos 5 caracteres e não pode ficar vazio. Volte e preencha o campo 'Nome' corretamente.");
-          } else if (email.length < 5 && email.trim() === ""){
-            alert("O campo deve ter pelo menos 5 caracteres e não pode ficar vazio. Volte e preencha o campo 'Email' corretamente.");
-          } else if (assunto.length < 5 && assunto.trim() === ""){
-            alert("O campo deve ter pelo menos 5 caracteres e não pode ficar vazio. Volte e preencha o campo 'Assunto' corretamente.");
-          } else if (comentario.length < 5 && comentario.trim() === ""){
-            alert("O campo deve ter pelo menos 5 caracteres e não pode ficar vazio. Volte e preencha o campo 'Comentário' corretamente.");
-          }
-      }
-        </script>
 </head>
 
 <body style="background-color: #963139;">
     <nav class="navbar navbar-expand-lg bg-danger"  style=" position: sticky; top: 0; overflow: hidden;">
      <div class="container-fluid">
         <a class="navbar-brand" href="Index.html" id="pipoca">
-            <img src="images/popcorn.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top" style="color: rgb(241, 183, 74);" >
+            <img src="popcorn.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top" style="color: rgb(241, 183, 74);" >
             Popcine
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
