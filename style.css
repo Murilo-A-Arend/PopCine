@@ -1,0 +1,84 @@
+#pipoca{
+    color: #fcd89f;
+    font-weight: bold;
+}
+.nav-link,#botao{
+    color: #fcd89f;
+}
+.nav-link:hover, #pipoca:hover{
+    color: #fbc773
+}
+
+#image_logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.teste
+{
+    color: COCOCO;
+}
+
+.H_paragrafo
+{
+    text-align: justify;   
+    margin-top: 15%; 
+}
+
+.tamanho_sabores
+{
+    width: 250px;
+    height: 250px;
+}
+
+.espaco_linha
+{
+    margin-bottom: 10%;
+}
+
+.centraliza_div
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+    margin-top: 30px;
+    padding-bottom: 30px; 
+    width: 100%; 
+    background-color: #dc3545;
+    color: #fcd89f;
+    text-align: center;
+
+}
+
+iframe
+{
+    margin-top: 3%;
+}
+
+.contato_center
+{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#comentario
+{
+    height: 120px;
+}
+.descricao{
+    margin-top: 5px;
+    background-color: #fbc773;
+    border-radius: 8px;
+    padding: 5px;
+}
+#botao{
+    background-color: #fcd89f;
+    color: #000;
+}
+#botao:hover{
+    background-color: #fbc773;
+    color: #000;
+};
